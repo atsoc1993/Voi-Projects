@@ -15,8 +15,8 @@ intents.message_content = True
 client = commands.Bot(command_prefix = '!', intents= intents)
 client.remove_command('help')
 
-algod_token = '8f374572eb63d1fb2718055b65396cb9a6a3c50fc71492bcbf215f23c3cc1bae'
-algod_port = 'http://5.161.112.231:32953'
+algod_token = ''
+algod_port = ''
 
 
 marketplace_dict = {
