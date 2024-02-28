@@ -121,7 +121,7 @@ def initial_scan():
 
 @tasks.loop(seconds=30)      
 async def marketplace_watcher():
-    circulating_dict = marketplace_circulating_scan(last_round)
+    circulating_dict = marketplace_circulating_scan()
     initial_market_assets = [assets for assets in marketplace_dict]
     circulating_assets = [assets for assets in circulating_dict]
 
