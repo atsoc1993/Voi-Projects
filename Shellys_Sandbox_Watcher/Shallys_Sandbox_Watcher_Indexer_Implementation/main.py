@@ -6,7 +6,8 @@ import subprocess
 import requests
 
 '''
-This is the indexer method alternative to the original main.py file. 
+This is the indexer method alternative to the original main.py file and can replace
+the original main.py in the previous folder for a less cpu-intensive watcher. 
 Instead of decoding, encoding, sequencing and formatting bytes in the 
 smart contract marketplace application boxes we can directly query information
 from all marketplace app ID's using the new indexer.
